@@ -1,0 +1,91 @@
+:root {
+    --nav: #8aa899;
+    --bg: #50777a;
+    --span: #000000;
+    --h2: #47a992;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #c4dfdf, #efefef);
+}
+
+/* Navbar */
+.nav {
+    background-color: var(--nav);
+    border-bottom: 1px solid var(--nav);
+    padding: 1.4rem 7%;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.95rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.nav span {
+    color: var(--span);
+}
+
+/* Main */
+main {
+    padding: 50px;
+}
+
+.mapel {
+    padding-left: 50px;
+    padding-top: 20px;
+    float: left;
+    width: 350px;
+    height: 400px;
+    margin: 15px 0 0 30px;
+}
+
+.mapel .img-math, .img-che, .img-bio {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.mapel .content h2 {
+    font-size: 30px;
+    color: var(--h2);
+}
+
+.mapel .content .btn {
+    text-decoration: none;
+    padding: 7px;
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+    float: left;
+    margin: 7px 0 0 25px;
+}
+
+.mapel .content .btn:hover {
+    background-color: pink;
+    transition-duration: 70ms;
+}
+
+.mapel .content .h2-math {
+    margin: 0 0 0 45px;
+}
+
+.mapel .content .h2-che {
+    margin: 0 0 0 80px;
+}
+
+.mapel .content .h2-bio {
+    margin: 0 0 0 75px;
+}
